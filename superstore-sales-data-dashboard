@@ -1,0 +1,63 @@
+File Name - Superstor_Sales_data
+
+From row data convert to table and change the table name as Sales_data
+Convert numerical value like Sales, Quantity, Profit into number format
+And sort date from oldest to newest
+
+After sorting all the data create some pivot
+—
+Pivot for sales by Sub - Category
+
+Rows : Sub category
+Value : Sales
+
+Now create a funnel chart
+For the funnel chart you have to first copy the data in a separate column because funnel chart doesn't work on pivot table
+
+—-
+Create a chart for the Profit Gain over time
+So for this 
+Create a pivot for Profit gain with years and category wise
+Row : Year
+Column : Category
+Value : Profit
+
+Create Line chart 
+—-
+
+Now create Monthly Sales Pivot Table
+For this create a month column as name
+Using text(date, “mmm”)
+
+Create pivot 
+Row - Month name
+Value - sales
+
+Also create a slicer along with this pivot by selecting Year
+
+Then create a 2D area chart which you can find under line chart
+
+—-
+Create a pivot and chart for the top 5 customer name which have highest profit
+
+Row: Customer name
+Value: Profit
+
+—-----
+Now create Map chart 
+Pivot table for State vs sales
+
+Rows: State
+Value: sales
+
+—-
+Create chart for Customer count with years
+Create separate column in a separate sheet for customer and year then remove duplicates value then create table and create pivot then put
+Row: year
+Value: customer (count of customer) means count of customer each year
+
+Create a bar chart or line chart
+
+—-
+After all the charts go to page layout menu and choose theme for all the charts color at once
+And choose color scheme of whole dashboard
